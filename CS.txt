@@ -1,0 +1,24 @@
+sv_cheats 1;sv_infinite_ammo 2;sv_grenade_trajectory 1;mp_maxmoney 65535;mp_startmoney 65535;mp_afterroundmoney 65535;mp_buytime 60000;mp_buy_anywhere 1;mp_roundtime_defuse 60;mp_roundtime_hostage 60;mp_roundtime 60;mp_restartgame 1 
+bind l sv_rethrow_last_grenade
+
+alias "+jumpthrow" 
+"+jump;-attack"; 
+alias "-jumpthrow" "-jump"; 
+bind alt "+jumpthrow"
+
+
+bind k NoClip
+
+CSGO-ye7UG-aXJLh-W8EUi-oChBj-Q5ZkF DAPR CROSSAIR
+
+CSGO-xwfLC-jOne4-ueuTB-KzR6X-WRDND SEBO DRÜCKER PUNKT
+
+CSGO-wXAro-UNhDe-QOAGk-8TBKm-cm5BO BJÖRN CROSSHAIR
+
+CSGO-jnAXY-unsoa-AyETK-F7BPn-9UXTB NIKO CROSSHAIR
+
+alias "+crosshairmax" "cl_crosshairsize 5000; cl_crosshairgap -10; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0"
+alias "-crosshairmax" "cl_crosshairsize 1.5; cl_crosshairgap -1.7; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 1"
+bind "b" "+crosshairmax"     
+
+
